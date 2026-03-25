@@ -1,0 +1,16 @@
+# Autopilot worktrees (transient, per-plan isolation)
+.worktrees/
+
+# Auto-generated queue file (rebuilt from plan file frontmatter)
+plans/queue.md
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

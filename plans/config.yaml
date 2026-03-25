@@ -1,0 +1,11 @@
+defaults:
+  approval:
+    spec: pending      # brainstorm output needs user review
+    plan: auto         # plans auto-approved after spec approval
+    merge: never       # always create PR, never auto-merge
+  priority: 5          # default priority (1-10, lower = higher)
+  max_parallel_swarms: 3
+  max_attempts: 3
+  context_soft_limit: 0.5   # 50% of context window
+  context_hard_limit: 0.7   # 70% of context window
+  claim_ttl: 3600           # 1 hour, auto-release if swarm dies
