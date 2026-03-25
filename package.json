@@ -1,0 +1,25 @@
+{
+  "name": "closedclawd",
+  "version": "0.1.0",
+  "description": "Autonomous project orchestrator built on RuFlo",
+  "type": "module",
+  "bin": {
+    "closedclawd": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test tests/**/*.test.js",
+    "test:unit": "node --test tests/unit/**/*.test.js",
+    "test:int": "node --test tests/integration/**/*.test.js",
+    "lint": "echo 'no linter configured yet'"
+  },
+  "peerDependencies": {
+    "ruflo": ">=3.0.0"
+  },
+  "files": [
+    "src/",
+    "templates/",
+    "scaffolds/"
+  ],
+  "keywords": ["claude", "orchestrator", "ruflo", "claude-flow", "swarm", "autonomous"],
+  "license": "MIT"
+}
